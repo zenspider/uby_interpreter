@@ -4,7 +4,7 @@ $:.unshift File.expand_path("~/Work/p4/zss/src/sexp_processor/dev/lib")
 
 require "uby_interpreter"
 
-class TestUbyInterpreter < MiniTest::Unit::TestCase
+class TestUbyInterpreter < Minitest::Test
   attr_accessor :ri
 
   def setup
